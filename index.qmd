@@ -1,0 +1,157 @@
+---
+title: "About Me"
+about:
+  template: solana
+  image: images/headshot.jpg
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/claire-hsieh-539456174/
+    - icon: github
+      text: Github
+      href: https://github.com/claire-hsieh
+listing:
+  contents: posts/welcome
+  type: default
+  categories: false
+  sort: date asc
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+margin-header: |
+  ![](images/pexels-madison-inouye-2622186.jpg)
+  
+html:
+  css: styles.css
+  toc: true
+mainfont: Century Gothic
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Hi! My name is Claire and I'm currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer's research. I love to read with my favorite genres being Fantasy and Sci-fi!
+
+```{html}
+<style>
+.education {
+  border: 1px solid; 
+  width: 800px;
+  margin: 30px;
+  padding:10px;
+  line-height: 20%;
+}
+
+.title {
+  text-align: center
+}
+</style>
+```
+
+::: {#title}
+# Skills
+:::
+
+::: {#skills}
+Linux, Python, etc. might as well add HTML at this point
+:::
+
+::: {#title1 .title}
+# Education
+:::
+
+::: {#education1 .education}
+## [University of California, Davis]{style="color:DarkCyan;"}
+
+2020 - 2024
+
+B.S. in Genetics and Genomics
+
+Minor in Statistics, Quantitative Biology and Bioinformatics
+
+GPA: 3.7
+
+Extracurricular Activities:
+
+-   Social Media Officer of the Davis Data Science Club
+
+-   Member of the Aggie Fiction Writing Workshop
+:::
+
+<div>
+
+# Experiences
+
+</div>
+
+## Research Assistant
+
+[**Topological Molecular Biology Lab**](https://arsuaga-vazquez-lab.faculty.ucdavis.edu/){style="color:DarkCyan;"}
+
+Apr 2021 - Present \| Davis, CA
+
+The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins.
+
+**Responsibilities**:
+
+-   Analyzed viral datasets to extract and annotate proteins using sequence and structural similarity
+
+-   Utilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country
+
+-   Cleaned and aligned genomic datasets using MAFFT and Clustal Omega
+
+-   Grew and collected microbial cultures
+
+-   Set up and performed gel electrophoresis
+
+-   Prepared frozen samples using GP2 and imaged using Cryo-EM
+
+-   Designed primers and performed qPCR to quantify DNA
+
+-   Extracted DNA using miniprep or chloroform
+
+## Research Assistant
+
+[Korf Lab](http://korflab.ucdavis.edu/about.html){style="color:DarkCyan;"}
+
+Dec 2022 - Present \| Davis, CA
+
+The Korf lab studies the structure and function of various genes and genetic elements using computational methods.
+
+**Responsibilities**:
+
+-   Developed Python programs that use intron position to predict gene enhancement
+
+-   Examined orthologous genes to identify introns with potential for enhancing genes
+
+-   Created algorithms to identify motifs using discretized position weight matrices, regular expressions, and k-mers
+
+-   Implemented a Stochastic Viterbi and forward-backwards algorithm in Python to generate random, probable isoforms
+
+## Intern
+
+[Irvine Summer Institute in Biostatistics and Undergraduate Data Science](https://isi-buds.github.io/program-2023/){style="color:DarkCyan;"}
+
+Jul 2023 - Aug 2023 \| Irvine, CA
+
+A six-week program that focused on teaching students the fundamentals of statistical research through both classroom and hands-on research experience. At the end of the program, students presented their findings at a symposium.
+
+**Responsibilities:**
+
+-   Learned fundamentals of probability, Monte Carlo methods, linear models, generalized linear models, causal inference, and Bayesian statistics
+-   Used R and machine learning to predict presence of colorectal cancer using metabolomics
+
+## Accounting Assistant
+
+[Quicklinks Advisor 365](https://qna365.com){style="color:DarkCyan;"}
+
+Aug 2020 - Dec 2022 \| Chino, CA
+
+Quicklinks Advisor 365 provides accounting and bookkeeping services, Quickbooks consulting and training, and tax preparation and planning.
+
+**Responsibilities:**
+
+-   Reconcile transactions and identify discrepancies
+-   Create and update financial statements

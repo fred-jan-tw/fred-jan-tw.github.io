@@ -1,0 +1,13 @@
+<style>
+.education {
+  border: 1px solid; 
+  width: 800px;
+  margin: 30px;
+  padding:10px;
+  line-height: 20%;
+}
+
+.title {
+  text-align: center
+}
+</style>
