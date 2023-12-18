@@ -1,13 +1,33 @@
-<style>
 .education {
-  border: 1px solid; 
+  border: 2px solid DarkCyan; 
+  border-radius: 25px;  
   width: 800px;
   margin: 30px;
-  padding:10px;
+  padding: 20px;
   line-height: 20%;
 }
 
 .title {
   text-align: center
 }
-</style>
+
+.experience {
+  border-bottom: solid;
+}
+
+.card-css{
+  margin: 30px;
+  padding: 20px;
+  display: grid;  
+	grid-template-columns:33% 33% 33%;
+	margin-bottom: 10px;
+}
+
+.card-header{
+
+}
+
+.temp{
+  display: flex";
+  align-items: flex-start;
+}

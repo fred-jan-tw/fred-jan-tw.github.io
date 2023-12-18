@@ -10,7 +10,7 @@ website:
       - text: about me
         href: "index.qmd"
       - text: CV
-        href: CV.pdf
+        href: "posts/CV/index.md"
       - text: Portfolio
         href: "posts/portfolio/index.qmd"
       - icon: github

@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Skills",
     "section": "",
     "text": "Hi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!"
   },
@@ -16,7 +16,7 @@
   {
     "objectID": "index.html#research-assistant",
     "href": "index.html#research-assistant",
-    "title": "About Me",
+    "title": "Skills",
     "section": "Research Assistant",
     "text": "Research Assistant\nTopological Molecular Biology Lab\nApr 2021 - Present | Davis, CA\nThe Arsuaga-Vasquez lab utilizes topological methods to study the 3D organization of DNA and proteins.\nResponsibilities:\n\nAnalyzed viral datasets to extract and annotate proteins using sequence and structural similarity\nUtilized profile HMMs in predicting SARS COV-2 mutation probabilities weighted by country\nCleaned and aligned genomic datasets using MAFFT and Clustal Omega\nGrew and collected microbial cultures\nSet up and performed gel electrophoresis\nPrepared frozen samples using GP2 and imaged using Cryo-EM\nDesigned primers and performed qPCR to quantify DNA\nExtracted DNA using miniprep or chloroform"
   },
@@ -121,14 +121,14 @@
   {
     "objectID": "index.html#intern",
     "href": "index.html#intern",
-    "title": "About Me",
+    "title": "Skills",
     "section": "Intern",
     "text": "Intern\nIrvine Summer Institute in Biostatistics and Undergraduate Data Science\nJul 2023 - Aug 2023 | Irvine, CA\nA six-week program that focused on teaching students the fundamentals of statistical research through both classroom and hands-on research experience. At the end of the program, students presented their findings at a symposium.\nResponsibilities:\n\nLearned fundamentals of probability, Monte Carlo methods, linear models, generalized linear models, causal inference, and Bayesian statistics\nUsed R and machine learning to predict presence of colorectal cancer using metabolomics"
   },
   {
     "objectID": "index.html#accounting-assistant",
     "href": "index.html#accounting-assistant",
-    "title": "About Me",
+    "title": "Skills",
     "section": "Accounting Assistant",
     "text": "Accounting Assistant\nQuicklinks Advisor 365\nAug 2020 - Dec 2022 | Chino, CA\nQuicklinks Advisor 365 provides accounting and bookkeeping services, Quickbooks consulting and training, and tax preparation and planning.\nResponsibilities:\n\nReconcile transactions and identify discrepancies\nCreate and update financial statements"
   },
@@ -142,8 +142,22 @@
   {
     "objectID": "index.html#university-of-california-davis",
     "href": "index.html#university-of-california-davis",
-    "title": "About Me",
+    "title": "Skills",
     "section": "University of California, Davis",
     "text": "University of California, Davis\n2020 - 2024\nB.S. in Genetics and Genomics\nMinor in Statistics, Quantitative Biology and Bioinformatics\nGPA: 3.7\nExtracurricular Activities:\n\nSocial Media Officer of the Davis Data Science Club\nMember of the Aggie Fiction Writing Workshop"
+  },
+  {
+    "objectID": "index.html#research-assitant",
+    "href": "index.html#research-assitant",
+    "title": "Skills",
+    "section": "Research Assitant",
+    "text": "Research Assitant\nKorf Lab\nDec 2022 - Present | Davis, CA\nThe Korf lab studies the structure and function of various genes and genetic elements using computational methods.\nResponsibilities:\n\nDeveloped Python programs that use intron position to predict gene enhancement\nExamined orthologous genes to identify introns with potential for enhancing genes\nCreated algorithms to identify motifs using discretized position weight matrices, regular expressions, and k-mers\nImplemented a Stochastic Viterbi and forward-backwards algorithm in Python to generate random, probable isoforms :::"
+  },
+  {
+    "objectID": "posts/CV/index.html",
+    "href": "posts/CV/index.html",
+    "title": "CV",
+    "section": "",
+    "text": "{height = 2000px width=1000px }"
   }
 ]
