@@ -4,7 +4,7 @@
   width: 800px;
   margin: 30px;
   padding: 20px;
-  line-height: 20%;
+  text-align: left;
 }
 
 .title {
@@ -13,6 +13,7 @@
 
 .experience {
   border-bottom: solid;
+  text-align: left;
 }
 
 .card-css{
@@ -20,14 +21,23 @@
   padding: 20px;
   display: grid;  
 	grid-template-columns:33% 33% 33%;
-	margin-bottom: 10px;
 }
 
 .card-header{
-
+  background: LightGray;
+  border-radius: 25px;  
+  align-items: left;
+  column-gap: 1em;
 }
 
 .temp{
-  display: flex";
-  align-items: flex-start;
+  border: 0.5px solid DarkCyan; 
+  border-radius: 25px;  
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card-text{
+  padding: 5px;
 }

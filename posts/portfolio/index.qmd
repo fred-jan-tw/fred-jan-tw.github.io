@@ -1,7 +1,15 @@
 ---
 title: "Portfolio"
-about:
-  template: solana
+listing:
+  contents:
+    - "contents/ISIBUDS/index.qmd"
+    - "contents/HackDavis/*.qmd"
+  sort: date desc
+  type: default
+page-layout: full
+toc: true
+html:
+  css: styles.css
+  toc: true
 ---
 
-Porfolio [tbd]

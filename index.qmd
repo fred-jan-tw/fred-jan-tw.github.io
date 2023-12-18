@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 about:
-  template: solana
+  template: jolla
   image: images/headshot.jpg
   links:
     - icon: linkedin
@@ -10,13 +10,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/claire-hsieh
-listing:
-  contents: posts/welcome
-  type: default
-  categories: false
-  sort: date asc
-  # sort-ui: false
-  filter-ui: false
 page-layout: full
 title-block-banner: true
 margin-header: |
@@ -81,12 +74,12 @@ grid.arrange(s1, s2, s3, s4, nrow = 2, newpage = TRUE)
 
 ::: card-css
 ::: temp
-::: card-header
+::: {.card-header style="display: flex; border-radius: 25px;"}
 ::: card-img-top
 <img src="images/skills/python-logo-only.svg" width="24"/>
 :::
 
-Python
+**Python**
 :::
 
 ::: card-text
@@ -95,12 +88,12 @@ Capable of utilizing data structures and Python packages (Pandas, Numpy) to crea
 :::
 
 ::: temp
-::: {.card-header style="display: flex"}
+::: {.card-header style="display: flex; border-radius: 25px"}
 ::: card-img-top
-<img src="images/skills/linux.svg" width="24"/>
+<img src="images/skills/linux.svg" width="33"/>
 :::
 
-Linux
+**Linux**
 :::
 
 ::: card-text
@@ -109,12 +102,12 @@ Used for bioinformatics processing (ie BLAST). Capable of writing bash/shell scr
 :::
 
 ::: temp
-::: {.card-header style="display: flex"}
+::: {.card-header style="display: flex; border-radius: 25px"}
 ::: card-img-top
 <img src="images/skills/perl-programming-language.svg" width="24"/>
 :::
 
-Perl
+**Perl**
 :::
 
 ::: card-text
@@ -123,12 +116,12 @@ Capable of building basic algorithms using Perl\
 :::
 
 ::: temp
-::: {.card-header style="display: flex"}
+::: {.card-header style="display: flex; border-radius: 25px"}
 ::: card-img-top
 <img src="images/skills/Rlogo.svg" width="24"/>
 :::
 
-R
+**R**
 :::
 
 ::: card-text
@@ -137,12 +130,12 @@ Able to create regression, classification, and prediction models as well as vari
 :::
 
 ::: temp
-::: {.card-header style="display: flex"}
+::: {.card-header style="display: flex; border-radius: 25px"}
 ::: card-img-top
 <img src="images/skills/matlab-svgrepo-com.svg" width="24"/>
 :::
 
-Matlab
+**Matlab**
 :::
 
 ::: card-text
