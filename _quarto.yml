@@ -1,7 +1,7 @@
 project:
   type: website
-execute:
-  freeze: auto
+  output-dir: docs
+
 website:
   title: "Home"
   favicon: logo.png
@@ -11,7 +11,7 @@ website:
       - text: about me
         href: "index.qmd"
       - text: CV
-        href: "posts/CV/index.md"
+        href: "posts/CV/index.qmd"
       - text: Portfolio
         href: "posts/portfolio/index.qmd"
       - icon: github

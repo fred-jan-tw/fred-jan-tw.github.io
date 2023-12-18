@@ -1,9 +1,5 @@
 ---
 title: "About Me"
-page-layout: full
-title-block-banner: true
-margin-header: |
-  ![](images/pexels-madison-inouye-2622186.jpg)
 about:
   template: solana
   image: images/headshot.jpg
@@ -19,9 +15,12 @@ listing:
   type: default
   categories: false
   sort: date asc
-  sort-ui: false
+  # sort-ui: false
   filter-ui: false
-
+page-layout: full
+title-block-banner: true
+margin-header: |
+  ![](images/pexels-madison-inouye-2622186.jpg)
   
 html:
   css: styles.css
