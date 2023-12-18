@@ -26,5 +26,5 @@ R Project predicting Colorectal Cancer Stage Using Metabolomic Data
   - Our best models were able to detect cancer at comparable rates to colonoscopy and CT-colonography (the gold standards of colonoscopy screenings, but are also highly invasive) and were superior to other colorectal detection tests that used fecal blood or dna to detect the presence of cancer. 
   
 
-![](Metabolomics_Project_Preserntation.pdf){ width="500px" height="1000px" }
+![](Metabolomics_Project_Preserntation.pdf){ width="750px" height="1000px" }
 

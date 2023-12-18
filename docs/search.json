@@ -60,6 +60,34 @@
     "href": "posts/portfolio/index.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Metabolomics Project\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHackDavis 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Metagenomics Viral Database Project\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStochastic Viterbi\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMetabolomics Project\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHackDavis 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/portfolio/contents/MGV/index.html",
+    "href": "posts/portfolio/contents/MGV/index.html",
+    "title": "Metagenomics Viral Database Project",
+    "section": "",
+    "text": "Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.\nThe data was obtained from the paper, Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome. Many of these viruses were previously unknown and the goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database."
+  },
+  {
+    "objectID": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
+    "href": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
+    "title": "Metagenomics Viral Database Project",
+    "section": "Obtaining the Sequences",
+    "text": "Obtaining the Sequences\n\nBecause connector proteins are not well conserved, sequence similarity will not be very high. Therefore, we will BLAST the connector protein domains against the database (rather than entire sequences) to find the connector protein."
+  },
+  {
+    "objectID": "posts/portfolio/contents/MGV/index.html#modeling",
+    "href": "posts/portfolio/contents/MGV/index.html#modeling",
+    "title": "Metagenomics Viral Database Project",
+    "section": "Modeling",
+    "text": "Modeling\n\nWe will be using AlphaFold and SWISS-MODEL to model the connector protein."
+  },
+  {
+    "objectID": "posts/portfolio/contents/Stochastic_Viterbi/index.html",
+    "href": "posts/portfolio/contents/Stochastic_Viterbi/index.html",
+    "title": "Stochastic Viterbi",
+    "section": "",
+    "text": "Project at the Korf Lab to find probable isoforms\nThe same gene can be used to create multiple different gene products by splicing exons together in various ways through alternative splcing. These different products or transcripts are called isoforms. And of the possible transcripts, most are rare but due to the random and messy nature of splicing, rare isoforms do occur at a measurable rate. Isoforms that do not conform to our expectations of random splicing are more likely to have biological function and to find these isoforms, we used the Stochastic Viterbi algorithm. To find likely isoforms, our algorithm randomly traversed a Viterbi trellis, and the Forward-Backward algorithm was used to find the probability.\nThe goal of this algorithm is to find multiple, likely paths through a hidden Markov model. The algorithm is based on the Viterbi algorithm, but instead of finding the most likely path, it finds the n most likely paths. Probabilities of being in a state are calculated using a forward-backward algorithm.\nThe repo for this project can be found here."
   }
 ]

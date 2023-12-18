@@ -2,6 +2,8 @@
   {
     "listing": "/posts/portfolio/index.html",
     "items": [
+      "/posts/portfolio/contents/MGV/index.html",
+      "/posts/portfolio/contents/Stochastic_Viterbi/index.html",
       "/posts/portfolio/contents/ISIBUDS/index.html",
       "/posts/portfolio/contents/HackDavis/index.html"
     ]
