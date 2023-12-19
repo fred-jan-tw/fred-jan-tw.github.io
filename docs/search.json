@@ -7,13 +7,6 @@
     "text": "Hi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!"
   },
   {
-    "objectID": "index.html#university-of-california-davis",
-    "href": "index.html#university-of-california-davis",
-    "title": "About Me",
-    "section": "University of California, Davis",
-    "text": "University of California, Davis\n2020 - 2024\nB.S. in Genetics and Genomics\nMinor in Statistics, Quantitative Biology and Bioinformatics\nGPA: 3.7\nExtracurricular Activities:\n\nSocial Media Officer of the Davis Data Science Club\nMember of the Aggie Fiction Writing Workshop"
-  },
-  {
     "objectID": "index.html#research-assistant",
     "href": "index.html#research-assistant",
     "title": "About Me",
@@ -42,6 +35,13 @@
     "text": "Accounting Assistant\nQuicklinks Advisor 365\nAug 2020 - Dec 2022 | Chino, CA\nQuicklinks Advisor 365 provides accounting and bookkeeping services, Quickbooks consulting and training, and tax preparation and planning.\nResponsibilities:\n\nReconcile transactions and identify discrepancies\nCreate and update financial statements"
   },
   {
+    "objectID": "index.html#university-of-california-davis",
+    "href": "index.html#university-of-california-davis",
+    "title": "About Me",
+    "section": "University of California, Davis",
+    "text": "University of California, Davis\n2020 - 2024\nB.S. in Genetics and Genomics\nMinor in Statistics, Quantitative Biology and Bioinformatics\nGPA: 3.74\nExtracurricular Activities:\n\nSocial Media Officer of the Davis Data Science Club\nMember of the Aggie Fiction Writing Workshop"
+  },
+  {
     "objectID": "posts/portfolio/contents/HackDavis/index.html",
     "href": "posts/portfolio/contents/HackDavis/index.html",
     "title": "HackDavis 2023",
@@ -54,13 +54,6 @@
     "title": "Metabolomics Project",
     "section": "",
     "text": "ISI-BUDS 2023 (Irvine Summer Institute in Biostatistics and Undergraduate Data Science)\nR Project predicting Colorectal Cancer Stage Using Metabolomic Data\n\nIn this project, we analyzed data from a colorectal cancer study, Colorectal Cancer Detection Using Targeted Serum Metabolic Profiling and applied machine learning methods to predict the stage of colorectal cancer.\nExplanatory Data Analysis:\n\nWe cleaned the data and replaced outliers with data imputed using SVD.\nPLS-DA (Partial Least Squares Discriminant Analysis) revealed that polyp groups looked more like controls than cancer groups\n\nPrediction:\n\nWe used various machine learning models to predict colorectal cancer stage, for which boosted trees and random forest performed best.\nThe interesting thing we did in this project was use Nested CV. Cross-validation normally works by dividing the data into training and testing sets, where the training data is used to train a model and the testing set is used to evaluate model’s performance (so prevent overfitting). Nested CV reduces bias even further by subdividing the data into inner and outer folds, where each fold has multiple CV’s. The inner fold is used to tune model parameters and the outer fold is used to measure performance.\n\nConclusion:\n\nOur best models were able to detect cancer at comparable rates to colonoscopy and CT-colonography (the gold standards of colonoscopy screenings, but are also highly invasive) and were superior to other colorectal detection tests that used fecal blood or dna to detect the presence of cancer."
-  },
-  {
-    "objectID": "posts/portfolio/index.html",
-    "href": "posts/portfolio/index.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Metagenomics Viral Database Project\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStochastic Viterbi\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMetabolomics Project\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHackDavis 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/portfolio/contents/MGV/index.html",
@@ -89,5 +82,12 @@
     "title": "Stochastic Viterbi",
     "section": "",
     "text": "Project at the Korf Lab to find probable isoforms\nThe same gene can be used to create multiple different gene products by splicing exons together in various ways through alternative splcing. These different products or transcripts are called isoforms. And of the possible transcripts, most are rare but due to the random and messy nature of splicing, rare isoforms do occur at a measurable rate. Isoforms that do not conform to our expectations of random splicing are more likely to have biological function and to find these isoforms, we used the Stochastic Viterbi algorithm. To find likely isoforms, our algorithm randomly traversed a Viterbi trellis, and the Forward-Backward algorithm was used to find the probability.\nThe goal of this algorithm is to find multiple, likely paths through a hidden Markov model. The algorithm is based on the Viterbi algorithm, but instead of finding the most likely path, it finds the n most likely paths. Probabilities of being in a state are calculated using a forward-backward algorithm.\nThe repo for this project can be found here."
+  },
+  {
+    "objectID": "posts/portfolio/index.html",
+    "href": "posts/portfolio/index.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Metagenomics Viral Database Project\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStochastic Viterbi\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMetabolomics Project\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHackDavis 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]

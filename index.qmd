@@ -144,28 +144,6 @@ Able to create predictive models and simulations
 :::
 :::
 
-::: {#title1 .title}
-# Education
-:::
-
-::: {#education1 .education}
-## [University of California, Davis]{style="color:DarkCyan;"}
-
-2020 - 2024
-
-B.S. in Genetics and Genomics
-
-Minor in Statistics, Quantitative Biology and Bioinformatics
-
-GPA: 3.7
-
-Extracurricular Activities:
-
--   Social Media Officer of the Davis Data Science Club
-
--   Member of the Aggie Fiction Writing Workshop
-:::
-
 ::: {#title2 .title}
 # Experiences
 :::
@@ -201,7 +179,7 @@ The Arsuaga-Vasquez lab utilizes topological methods to study the 3D organizatio
 ::: {#experience2 .experience}
 ## Research Assitant
 
-[Korf Lab](http://korflab.ucdavis.edu/about.html){style="color:DarkCyan;"}
+[**Korf Lab**](http://korflab.ucdavis.edu/about.html){style="color:DarkCyan;"}
 
 Dec 2022 - Present \| Davis, CA
 
@@ -221,7 +199,7 @@ The Korf lab studies the structure and function of various genes and genetic ele
 ::: {#experience3 .experience}
 ## Intern
 
-[Irvine Summer Institute in Biostatistics and Undergraduate Data Science](https://isi-buds.github.io/program-2023/){style="color:DarkCyan;"}
+[**Irvine Summer Institute in Biostatistics and Undergraduate Data Science**](https://isi-buds.github.io/program-2023/){style="color:DarkCyan;"}
 
 Jul 2023 - Aug 2023 \| Irvine, CA
 
@@ -236,7 +214,7 @@ A six-week program that focused on teaching students the fundamentals of statist
 ::: {#experience4 .experience}
 ## Accounting Assistant
 
-[Quicklinks Advisor 365](https://qna365.com){style="color:DarkCyan;"}
+[**Quicklinks Advisor 365**](https://qna365.com){style="color:DarkCyan;"}
 
 Aug 2020 - Dec 2022 \| Chino, CA
 
@@ -246,4 +224,26 @@ Quicklinks Advisor 365 provides accounting and bookkeeping services, Quickbooks 
 
 -   Reconcile transactions and identify discrepancies
 -   Create and update financial statements
+:::
+
+::: {#title1 .title}
+# Education
+:::
+
+::: {#education1 .education}
+## [University of California, Davis]{style="color:DarkCyan;"}
+
+2020 - 2024
+
+B.S. in Genetics and Genomics
+
+Minor in Statistics, Quantitative Biology and Bioinformatics
+
+GPA: 3.74
+
+Extracurricular Activities:
+
+-   Social Media Officer of the Davis Data Science Club
+
+-   Member of the Aggie Fiction Writing Workshop
 :::
