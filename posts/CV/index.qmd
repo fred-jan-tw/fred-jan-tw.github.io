@@ -1,9 +1,0 @@
----
-title: "CV"
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-![](CV.pdf){ width="1000px" height="2000px" }

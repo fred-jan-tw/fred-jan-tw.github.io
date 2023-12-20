@@ -10,8 +10,6 @@ website:
     right:
       - text: about me
         href: "index.qmd"
-      - text: CV
-        href: "posts/CV/index.qmd"
       - text: Portfolio
         href: "posts/portfolio/index.qmd"
       - icon: github
@@ -20,7 +18,7 @@ website:
         href: https://www.linkedin.com/in/claire-hsieh-539456174/
 format:
   html:
-    theme: minty
+    theme: sandstone
     css: styles.css
     toc: true
     page-layout: full

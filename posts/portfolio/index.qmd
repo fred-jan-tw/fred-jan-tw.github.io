@@ -1,17 +1,3 @@
 ---
 title: "Portfolio"
-listing:
-  contents:
-    - "contents/ISIBUDS/index.qmd"
-    - "contents/HackDavis/*.qmd"
-    - "contents/MGV/*.qmd"
-    - "contents/Stochastic_Viterbi/*.qmd"
-  sort: date desc
-  type: default
-page-layout: full
-toc: true
-html:
-  css: styles.css
-  toc: true
 ---
-

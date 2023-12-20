@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "About Me",
     "section": "",
-    "text": "Hi! My name is Claire and I’m currently a student at UC Davis majoring in Genetics and Genomics and planning to pursue a PhD in Biostatistics. My research interests are in statistical genetics and machine learning which I hope to apply in cancer and Alzheimer’s research. I love to read with my favorite genres being Fantasy and Sci-fi!"
+    "text": "Hi! My name is 詹徳生 and …\n:::"
   },
   {
     "objectID": "index.html#research-assistant",
@@ -40,54 +40,5 @@
     "title": "About Me",
     "section": "University of California, Davis",
     "text": "University of California, Davis\n2020 - 2024\nB.S. in Genetics and Genomics\nMinor in Statistics, Quantitative Biology and Bioinformatics\nGPA: 3.74\nExtracurricular Activities:\n\nSocial Media Officer of the Davis Data Science Club\nMember of the Aggie Fiction Writing Workshop"
-  },
-  {
-    "objectID": "posts/portfolio/contents/HackDavis/index.html",
-    "href": "posts/portfolio/contents/HackDavis/index.html",
-    "title": "HackDavis 2023",
-    "section": "",
-    "text": "HackDavis Project 2023: A scavenger-hunt type game to introduce UC Davis to new students\nTrouble in Moo Town\nThis project was inspired by our desire to build a game that would encourage folks to go outside and appreciate our beautiful campus. We decided to integrate this idea with a tour-like game that would help incoming freshmen and transfers navigate our huge campus!\nMade in collaboration with Sai Suresh, Jenna Noueihed, and Meghana Manepalli."
-  },
-  {
-    "objectID": "posts/portfolio/contents/ISIBUDS/index.html",
-    "href": "posts/portfolio/contents/ISIBUDS/index.html",
-    "title": "Metabolomics Project",
-    "section": "",
-    "text": "ISI-BUDS 2023 (Irvine Summer Institute in Biostatistics and Undergraduate Data Science)\nR Project predicting Colorectal Cancer Stage Using Metabolomic Data\n\nIn this project, we analyzed data from a colorectal cancer study, Colorectal Cancer Detection Using Targeted Serum Metabolic Profiling and applied machine learning methods to predict the stage of colorectal cancer.\nExplanatory Data Analysis:\n\nWe cleaned the data and replaced outliers with data imputed using SVD.\nPLS-DA (Partial Least Squares Discriminant Analysis) revealed that polyp groups looked more like controls than cancer groups\n\nPrediction:\n\nWe used various machine learning models to predict colorectal cancer stage, for which boosted trees and random forest performed best.\nThe interesting thing we did in this project was use Nested CV. Cross-validation normally works by dividing the data into training and testing sets, where the training data is used to train a model and the testing set is used to evaluate model’s performance (so prevent overfitting). Nested CV reduces bias even further by subdividing the data into inner and outer folds, where each fold has multiple CV’s. The inner fold is used to tune model parameters and the outer fold is used to measure performance.\n\nConclusion:\n\nOur best models were able to detect cancer at comparable rates to colonoscopy and CT-colonography (the gold standards of colonoscopy screenings, but are also highly invasive) and were superior to other colorectal detection tests that used fecal blood or dna to detect the presence of cancer."
-  },
-  {
-    "objectID": "posts/portfolio/contents/MGV/index.html",
-    "href": "posts/portfolio/contents/MGV/index.html",
-    "title": "Metagenomics Viral Database Project",
-    "section": "",
-    "text": "Project at the Arsuaga-Vazquez lab to analyze the connector protein from a database of viruses sequenced from the human gut.\nThe data was obtained from the paper, Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome. Many of these viruses were previously unknown and the goal of this project is to create a general structure of the connector protein by obtaining and modeling many connector proteins whose sequences are available in the database."
-  },
-  {
-    "objectID": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
-    "href": "posts/portfolio/contents/MGV/index.html#obtaining-the-sequences",
-    "title": "Metagenomics Viral Database Project",
-    "section": "Obtaining the Sequences",
-    "text": "Obtaining the Sequences\n\nBecause connector proteins are not well conserved, sequence similarity will not be very high. Therefore, we will BLAST the connector protein domains against the database (rather than entire sequences) to find the connector protein."
-  },
-  {
-    "objectID": "posts/portfolio/contents/MGV/index.html#modeling",
-    "href": "posts/portfolio/contents/MGV/index.html#modeling",
-    "title": "Metagenomics Viral Database Project",
-    "section": "Modeling",
-    "text": "Modeling\n\nWe will be using AlphaFold and SWISS-MODEL to model the connector protein."
-  },
-  {
-    "objectID": "posts/portfolio/contents/Stochastic_Viterbi/index.html",
-    "href": "posts/portfolio/contents/Stochastic_Viterbi/index.html",
-    "title": "Stochastic Viterbi",
-    "section": "",
-    "text": "Project at the Korf Lab to find probable isoforms\nThe same gene can be used to create multiple different gene products by splicing exons together in various ways through alternative splcing. These different products or transcripts are called isoforms. And of the possible transcripts, most are rare but due to the random and messy nature of splicing, rare isoforms do occur at a measurable rate. Isoforms that do not conform to our expectations of random splicing are more likely to have biological function and to find these isoforms, we used the Stochastic Viterbi algorithm. To find likely isoforms, our algorithm randomly traversed a Viterbi trellis, and the Forward-Backward algorithm was used to find the probability.\nThe goal of this algorithm is to find multiple, likely paths through a hidden Markov model. The algorithm is based on the Viterbi algorithm, but instead of finding the most likely path, it finds the n most likely paths. Probabilities of being in a state are calculated using a forward-backward algorithm.\nThe repo for this project can be found here."
-  },
-  {
-    "objectID": "posts/portfolio/index.html",
-    "href": "posts/portfolio/index.html",
-    "title": "Portfolio",
-    "section": "",
-    "text": "Metagenomics Viral Database Project\n\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nStochastic Viterbi\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nMetabolomics Project\n\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2023\n\n\n\n\n\n\n  \n\n\n\n\nHackDavis 2023\n\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]
